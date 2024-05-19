@@ -2,15 +2,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url('background.jpeg') no-repeat center center fixed; 
-  background-size: cover; 
-  color: #fff; 
+  background: url("background.jpeg");
+  background-size: cover;
+  color: #000;
 }
 
 h1 {
   text-align: center;
   margin: 20px 0;
-  color: black; 
+  color: black;
 }
 
 .product-list {
@@ -49,13 +49,14 @@ h1 {
 
 .product-card p {
   margin: 5px 0;
-  color: #666; 
+  color: #666;
 }
 
-.product-card a, .product-card button {
-  margin-top: auto; 
+.product-card a,
+.product-card button {
+  margin-top: auto;
   color: #fff;
-  background-color: #007BFF;
+  background-color: #007bff;
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
@@ -65,7 +66,8 @@ h1 {
   transition: background-color 0.3s;
 }
 
-.product-card a:hover, .product-card button:hover {
+.product-card a:hover,
+.product-card button:hover {
   background-color: #0056b3;
 }
 
@@ -75,7 +77,7 @@ h1 {
   align-items: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.9);
-  color: #333; 
+  color: #333;
   border-radius: 10px;
   margin: 20px;
 }
